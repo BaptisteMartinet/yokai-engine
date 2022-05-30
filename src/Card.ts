@@ -1,16 +1,22 @@
 export class Position2D {
-  public x: number;
-  public y: number;
+  private x: number;
+  private y: number;
 
   constructor(_x: number, _y: number) {
     this.x = _x;
     this.y = _y;
   }
 
+  get X() { return this.x; }
+  get Y() { return this.y; }
+
+  set X(value: number) { this.x = value; }
+  set Y(value: number) { this.y = value; }
+
   equals(obj: Object): boolean {
     if (!(obj instanceof Position2D))
       return false;
-    return this.x === obj.x && this.y === obj.y;
+    return this.x === obj.X && this.y === obj.Y;
   }
 }
 
@@ -42,9 +48,9 @@ export default class Card {
   get Dragged() { return this.dragged; }
   get Revealed() { return this.revealed; }
 
-  set Pos(_newPos: { x: number, y: number }) {
-    this.pos.x = _newPos.x;
-    this.pos.y = _newPos.y;
+  set Pos(_newPosition: Position2D) {
+    this.pos.X = _newPosition.X;
+    this.pos.Y = _newPosition.Y;
   }
   set Hint(_hint: number) {
     if (this.hint >= 0)
