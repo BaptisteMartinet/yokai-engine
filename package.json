@@ -2,8 +2,12 @@
   "name": "yokai-engine",
   "version": "1.0.0",
   "description": "Core engine of the YOKAI boardgame",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/BaptisteMartinet/yokai-engine/issues"
   },
-  "homepage": "https://github.com/BaptisteMartinet/yokai-engine#readme"
+  "homepage": "https://github.com/BaptisteMartinet/yokai-engine#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
 }
