@@ -1,5 +1,5 @@
 {
-  "name": "yokai-engine",
+  "name": "@baptiste-martinet/yokai-engine",
   "version": "1.0.0",
   "description": "Core engine of the YOKAI boardgame",
   "main": "dist/index.js",
