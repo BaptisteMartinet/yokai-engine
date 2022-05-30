@@ -1,0 +1,22 @@
+{
+  "name": "yokai-engine",
+  "version": "1.0.0",
+  "description": "Core engine of the YOKAI boardgame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaptisteMartinet/yokai-engine.git"
+  },
+  "keywords": [
+    "YOKAI"
+  ],
+  "author": "Baptiste Martinet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaptisteMartinet/yokai-engine/issues"
+  },
+  "homepage": "https://github.com/BaptisteMartinet/yokai-engine#readme"
+}
