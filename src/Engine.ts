@@ -1,4 +1,5 @@
-import Card, { Position2D, ColorsEnum } from './Card';
+import Position2D from './utils/Position2D';
+import Card, { ColorsEnum } from './Card';
 
 export default class YokaiEngine {
   private nbColumns = 4;
