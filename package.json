@@ -1,6 +1,6 @@
 {
   "name": "@baptiste-martinet/yokai-engine",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Core engine of the YOKAI boardgame",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
